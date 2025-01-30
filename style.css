@@ -118,6 +118,11 @@ body {
     margin-bottom: 210px;
 }
 
+.section-title{
+    display: flex;
+    justify-content: center
+}
+
 .section-footer {
     background: #2F303A;
 }
@@ -152,8 +157,8 @@ body {
 }
 .portfolio_container-list{
     display: flex;
-    gap: 30px;
-    align-items: stretch
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 30px;
+    align-items: stretch
 }
